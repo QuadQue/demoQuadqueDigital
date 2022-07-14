@@ -3,11 +3,15 @@
 @push('styles')
         <style>
             .text-image-image .icon {
-    position: absolute;
-    bottom: 0;
-    padding:0!important;
+                    position: absolute;
+                    bottom: 0;
+                    padding:0!important;
     
-}
+            }
+            .team-content{
+                margin-top:200px
+            }
+
         </style>
 @endpush
 @section('content')
@@ -32,7 +36,8 @@
         </div>
         <div class="page-header-bottom">
             <div class="single-image">
-                <img src="assets/images/about-header.jpg" alt="about-header">
+                <img src="{{ asset('assets/images/employee_images/280100009_430853565708382_284535374749364603_n.jpg') }}" alt="about-header">
+
             </div>
         </div>
         <div class="artwork artwork-3">
@@ -229,11 +234,39 @@
             <div class="team-content">
                 <div class="container">
                     <div class="row">
+                     <!-- team member - start -->
+                     <div class="col-lg-4 col-md-6">
+                         <div class="team-member">
+                             <div class="team-member-image">
+                                 <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.54.57 AM.jpeg') }}" alt="team-member-1">
+
+
+                                 <div class="team-member-social">
+                                     <ul>
+                                         <li>
+                                             <a href="#">
+                                                 <i aria-hidden="true" class="fab fa-facebook-f"></i>
+                                             </a>
+                                         </li>
+
+                                     </ul>
+                                 </div>
+                             </div>
+                             <div class="team-member-content">
+                                 <h5> Mohammad AB Bijoy</h5>
+
+                                 <h6>Chairman</h6>
+
+                             </div>
+                         </div>
+                     </div>
+                     <!-- team member - end -->
+
                         <!-- team member - start -->
                         <div class="col-lg-4 col-md-6">
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_01.png" alt="team-member-1">
+                                    <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.44.59 AM.jpeg') }}" alt="team-member-1">
                                     <div class="team-member-social">
                                         <ul>
                                             <li>
@@ -241,22 +274,14 @@
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h5>Michael Rush</h5>
-                                    <h6>Founder</h6>
+                                    <h5>Muhammad H. M. Alvi</h5>
+                                    <h6>Managing Director & CEO</h6>
+
                                 </div>
                             </div>
                         </div>
@@ -265,19 +290,12 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_02.png" alt="team-member-2">
+                                   <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.48.59 AM.jpeg') }}" alt="team-member-1">
+
+
                                     <div class="team-member-social">
                                         <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                           
                                             <li>
                                                 <a href="#">
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
@@ -287,8 +305,9 @@
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h5>Erica Fregoso</h5>
-                                    <h6>IT Administrator</h6>
+                                    <h5>Aushfaq Mahbub</h5>
+                                    <h6>Digital Marketing Specialist</h6>
+
                                 </div>
                             </div>
                         </div>
@@ -297,19 +316,13 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_03.png" alt="team-member-3">
+                                        <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.49.28 AM.jpeg') }}" alt="team-member-1">
+
+
+
                                     <div class="team-member-social">
                                         <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                           
                                             <li>
                                                 <a href="#">
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
@@ -319,8 +332,10 @@
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h5>Donald Jackson</h5>
-                                    <h6>Software Developer</h6>
+                                    <h5> Ripon Hossain</h5>
+
+                                    <h6>Visualizer</h6>
+
                                 </div>
                             </div>
                         </div>
@@ -329,7 +344,10 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_04.png" alt="team-member-4">
+                                       <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.50.19 AM.jpeg') }}" alt="team-member-1">
+
+
+
                                     <div class="team-member-social">
                                         <ul>
                                             <li>
@@ -337,22 +355,15 @@
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                           
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h5>Davir Taylor</h5>
-                                    <h6>Art Director</h6>
+                                    <h5>Sadin Mahfuz</h5>
+
+                                    <h6>Senior Visualizer</h6>
+
                                 </div>
                             </div>
                         </div>
@@ -361,7 +372,8 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_05.png" alt="team-member-5">
+
+                                    <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.50.54 AM.jpeg') }}" alt="team-member-1">
                                     <div class="team-member-social">
                                         <ul>
                                             <li>
@@ -369,22 +381,15 @@
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h5>Bruce Hudson</h5>
-                                    <h6>UI/UX Designer</h6>
+                                    <h5> Atika Younus</h5>
+
+                                    <h6>Jr. WordPress </h6>
+
                                 </div>
                             </div>
                         </div>
@@ -393,7 +398,9 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_06.png" alt="team-member-6">
+                                     <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.52.03 AM.jpeg') }}" alt="team-member-1">
+
+
                                     <div class="team-member-social">
                                         <ul>
                                             <li>
@@ -401,11 +408,30 @@
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                          
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="team-member-content">
+                                    <h5>Sourav Sen Gupta</h5>
+
+                                    <h6>React, Developer</h6>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- team member - end -->
+                       
+                        <!-- team member - start -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="team-member">
+                                <div class="team-member-image">
+                                    <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.53.53 AM.jpeg') }}" alt="team-member-1">
+
+
+                                    <div class="team-member-social">
+                                        <ul>
+                                           
                                             <li>
                                                 <a href="#">
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
@@ -415,8 +441,10 @@
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h5>Jeanette Novak</h5>
-                                    <h6>Front End Developer</h6>
+                                    <h5>Sheikh Ahsan Habib</h5>
+
+                                    <h6>Jr. Web Developer</h6>
+
                                 </div>
                             </div>
                         </div>
@@ -425,7 +453,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="team-member">
                                 <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_07.png" alt="team-member-7">
+                                  <img width="370" height="455" src="{{ asset('assets/images/employee_images/WhatsApp Image 2022-07-14 at 10.58.30 AM.jpeg') }}" alt="team-member-1">
                                     <div class="team-member-social">
                                         <ul>
                                             <li>
@@ -433,86 +461,15 @@
                                                     <i aria-hidden="true" class="fab fa-facebook-f"></i>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="team-member-content">
-                                    <h5>Angela Penwell</h5>
-                                    <h6>Software Developer</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- team member - end -->
-                        <!-- team member - start -->
-                        <div class="col-lg-4 col-md-6">
-                            <div class="team-member">
-                                <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_08.png" alt="team-member-8">
-                                    <div class="team-member-social">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-member-content">
-                                    <h5>Justin Greer</h5>
-                                    <h6>Customer Support</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- team member - end -->
-                        <!-- team member - start -->
-                        <div class="col-lg-4 col-md-6">
-                            <div class="team-member">
-                                <div class="team-member-image">
-                                    <img width="370" height="455" src="assets/images/team_member_09.png" alt="team-member-9">
-                                    <div class="team-member-social">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <i aria-hidden="true" class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-member-content">
-                                    <h5>Larry Hernandez</h5>
-                                    <h6>Graphic Designer
+                                    <h5>Md. Samin Hasan</h5>
+
+                                    <h6>Executive, Sales & Marketing
+
                                     </h6>
                                 </div>
                             </div>

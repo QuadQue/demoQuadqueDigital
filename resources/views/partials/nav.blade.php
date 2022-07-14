@@ -79,7 +79,7 @@
 
                             </li>
                             <li class="menu-item menu-item-has-children">
-                                <a href="#">Case Studies</a>
+                                <a href="{{ route('case.study') }}">Case Studies</a>
 
                             </li>
                             

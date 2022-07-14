@@ -48,6 +48,10 @@ class PageController extends Controller
     {
         return view('pages.career');
     }
+    public function caseStudy()
+    {
+        return view('pages.case_study');
+    }
     public function home()
     {
         return view('pages.index');
