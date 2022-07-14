@@ -5,17 +5,17 @@
        .paragraph{
             max-height: 100px;
         overflow: hidden;
-    }
+        }
 
-    svg.h-5{
-        height:20px !important;
-    }
-    .blog-list > nav > span {
-        display:none !important;
-    }
-    nav > div.flex{
-        display:none;
-    }
+        svg.h-5{
+            height:20px !important;
+        }
+        .blog-list > nav > span {
+            display:none !important;
+        }
+        nav > div.flex{
+            display:none;
+        }
 </style>
 @endpush
 

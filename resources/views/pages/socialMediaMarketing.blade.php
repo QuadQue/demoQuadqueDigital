@@ -1,5 +1,16 @@
 @extends('layout.master')
 @section('title', 'Social Media Marketing - Quadque Digital')
+@push('styles')
+<style>
+
+         .artwork-2 {
+         bottom: -30.5rem !important;
+
+         }
+
+
+</style>
+@endpush
 @section('content')
 
     <!-- page header - start -->
@@ -22,11 +33,14 @@
         </div>
         <div class="page-header-bottom">
             <div class="single-image">
-                <img src="assets/images/about-header.jpg" alt="about-header">
+                <img src="{{ asset('assets/images/service_images/social_media_marketing.jpeg') }}" alt="about-header">
+
+
               </div>
         </div>
         <div class="artwork artwork-3">
-            <img src="assets/images/art_1.png" width="582" height="669" alt="artwork">
+            <img src="{{ asset('assets/images/art_1.svg') }}" width="582" height="669" alt="artwork">
+
         </div>
     </div>
     <!-- page header - end -->
@@ -223,11 +237,13 @@
             </div>
             <!-- text content footer - end -->
             <div class="artwork artwork-2">
-                <img src="assets/images/art_2.png" alt="artwork">
+                 <img src="{{ asset('assets/images/art_2.svg') }}" width="582" height="669" alt="artwork">
+
             </div>
         </div>
         <div class="single-image ">
-            <img src="assets/images/blog_content_img.jpg" alt="generic-image">
+            <img src="{{ asset('assets/images/service_images/2c494eec4b309c56e36d2644e00a57f4.jpg') }}" alt="generic-image" height="766">
+
         </div>
     </div>
     <!-- text content section - end -->
