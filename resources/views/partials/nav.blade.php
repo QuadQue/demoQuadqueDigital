@@ -66,19 +66,8 @@
                              </li>
                            
                             <li class="menu-item menu-item-has-children">
-                                <a href="javascript:void(0)">Projects</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item">
-                                        <a href="{{ url('/projects-1') }}">Projects Style 1</a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="{{ url('/projects-2') }}">Projects Style 2</a>
+                                <a href="{{ url('/projects') }}">Projects</a>
 
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="{{ url('project-detailed') }}">Project Detailed</a>
-                                    </li>
-                                </ul>
                             </li>
                             <li class="menu-item menu-item-has-children">
                                 <a href="{{ url('blog-list') }}">Blog</a>
@@ -86,7 +75,7 @@
                                 
                             </li>
                             <li class="menu-item menu-item-has-children">
-                                <a href="#">Career</a>
+                                <a href="{{ route('career') }}">Career</a>
 
                             </li>
                             <li class="menu-item menu-item-has-children">

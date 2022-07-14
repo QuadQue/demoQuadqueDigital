@@ -6,7 +6,7 @@
                   <div class="row">
                       <div class="col-lg-6">
                           <div class="footer--logo">
-                              <a href="{{ asset('assets/images/quadque_digital_final_logo_v1.0_1_300x80.png') }}" target="_blank" alt="footer logo">
+                              <a href="{{ route('home') }}" target="_blank" alt="footer logo">
                                   <img src="{{ asset('assets/images/quadque_digital_final_logo_v1.0_1_300x80.png') }}" alt="footer">
                               </a>
                           </div>

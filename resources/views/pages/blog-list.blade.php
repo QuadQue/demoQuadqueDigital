@@ -13,6 +13,9 @@
     .blog-list > nav > span {
         display:none !important;
     }
+    nav > div.flex{
+        display:none;
+    }
 </style>
 @endpush
 

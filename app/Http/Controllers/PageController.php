@@ -34,16 +34,19 @@ class PageController extends Controller
     public function blogList()
     {
 
-        $blogs =Blog::Orderby('id','desc')->paginate(4);
-        $latest_blogs =Blog::latest()->limit(4)->get();
+        $blogs = Blog::Orderby('id', 'desc')->paginate(4);
+        $latest_blogs = Blog::latest()->limit(4)->get();
         $categories = Category::all();
-      
-        return view('pages.blog-list', ['blogs' => $blogs,'categories' => $categories, 'latest_blogs' => $latest_blogs]);
-        
+
+        return view('pages.blog-list', ['blogs' => $blogs, 'categories' => $categories, 'latest_blogs' => $latest_blogs]);
     }
     public function contact()
     {
         return view('pages.contact');
+    }
+    public function career()
+    {
+        return view('pages.career');
     }
     public function home()
     {
@@ -65,32 +68,34 @@ class PageController extends Controller
     {
         return view('pages.projects-2');
     }
-    
+
     /** show the social media marketing page**/
     public function socialMediaMarketing()
     {
-      
+
         return view('pages.socialMediaMarketing');
     }
-    
-     /** show the search engine optimization page**/
+
+    /** show the search engine optimization page**/
     public function searchEngineOptimization()
     {
         return view('pages.searchEngineOptimization');
     }
-    
-    
-     /** show the search writing solutions page**/
-     public function writingSolutions(){
-         
-         return view('pages.writingSolutions');
-     }
-     /** show the online advertising page**/
-     public function onlineAdvertising(){
-         
-         return view('pages.onlineAdvertising');
-     }
-     
+
+
+    /** show the search writing solutions page**/
+    public function writingSolutions()
+    {
+
+        return view('pages.writingSolutions');
+    }
+    /** show the online advertising page**/
+    public function onlineAdvertising()
+    {
+
+        return view('pages.onlineAdvertising');
+    }
+
     public function pages404()
     {
         return view('pages.404');

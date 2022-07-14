@@ -40,10 +40,11 @@
       .testimonial-image{
           margin-right:60px;
       }
-    /*  .testimonial-image img{
-         max-height:180px;
-         max-width:180px;
-      }*/
+     .artwork-2 {
+        bottom: -14.5rem !important;
+       
+     }
+
       
        
        

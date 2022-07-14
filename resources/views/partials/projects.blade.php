@@ -2,27 +2,36 @@
     <div class="projects">
         <div class="projects-wrapper">
             <!-- projects header - start -->
-            <div class="projects-header bg-black">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h3 class="heading heading-large light-1">
-                                Recent work
-                            </h3>
-                        </div>
-                        <div class="col-lg-5 offset-lg-1">
-                            <div class="paragraph light-2">
-                                <p>Our team helps companies develop their ideas into cutting-edge products that will cause customers to love and enjoy.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @if(\Route::currentRouteName() == 'home')
+
+              <div class="projects-header bg-black">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <h3 class="heading heading-large light-1">
+                                  Recent work
+                              </h3>
+                          </div>
+                          <div class="col-lg-5 offset-lg-1">
+                              <div class="paragraph light-2">
+                                  <p>Our team helps companies develop their ideas into cutting-edge products that will cause customers to love and enjoy.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+            @endif
+
+            
+
+          
             <!-- projects header - end -->
             <!-- projects list - start -->
             <div class="project-list project-list-d06e8f6 project-list-1">
                 <!-- projects single - start -->
-                <a href="project-detailed.html" class="project-list-single--wrapper">
+                <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
                     <div class="project-list-single">
                         <div class="project-list-single--content">
                             <div class="project-list-single--content-inner">
@@ -55,7 +64,9 @@
                 </a>
                 <!-- projects single - end -->
                 <!-- projects single - start -->
-                <a href="project-detailed.html" class="project-list-single--wrapper">
+                <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
+
                     <div class="project-list-single">
                         <div class="project-list-single--content">
                             <div class="project-list-single--content-inner">
@@ -84,7 +95,9 @@
                 </a>
                 <!-- projects single - end -->
                 <!-- projects single - start -->
-                <a href="project-detailed.html" class="project-list-single--wrapper">
+                <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
+
                     <div class="project-list-single">
                         <div class="project-list-single--content">
                             <div class="project-list-single--content-inner">
@@ -113,7 +126,8 @@
                 </a>
                 <!-- projects single - end -->
                 <!-- projects single - start -->
-                <a href="project-detailed.html" class="project-list-single--wrapper">
+                <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
                     <div class="project-list-single">
                         <div class="project-list-single--content">
                             <div class="project-list-single--content-inner">
@@ -146,7 +160,8 @@
                 </a>
                 <!-- projects single - end -->
                  <!-- projects single - start -->
-                 <a href="project-detailed.html" class="project-list-single--wrapper">
+                 <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
                      <div class="project-list-single">
                          <div class="project-list-single--content">
                              <div class="project-list-single--content-inner">
@@ -177,7 +192,8 @@
                  <!-- projects single - end -->
 
                    <!-- projects single - start -->
-                   <a href="project-detailed.html" class="project-list-single--wrapper">
+                   <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
                        <div class="project-list-single">
                            <div class="project-list-single--content">
                                <div class="project-list-single--content-inner">
@@ -207,7 +223,8 @@
                    <!-- projects single - end -->
 
                     <!-- projects single - start -->
-                    <a href="project-detailed.html" class="project-list-single--wrapper">
+                    <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
                         <div class="project-list-single">
                             <div class="project-list-single--content">
                                 <div class="project-list-single--content-inner">
@@ -238,7 +255,8 @@
                     <!-- projects single - end -->
 
                       <!-- projects single - start -->
-                      <a href="project-detailed.html" class="project-list-single--wrapper">
+                      <a href="{{ route('project.detailed') }}" class="project-list-single--wrapper">
+
                           <div class="project-list-single">
                               <div class="project-list-single--content">
                                   <div class="project-list-single--content-inner">
@@ -277,26 +295,39 @@
 
             </div>
             <!-- projects list - end -->
-            <!-- projects footer - start -->
-            <div class="projects-footer projects-footer-1 bg-black">
-                <div class="container">
-                    <div class="row align-items-lg-center">
-                        <div class="col-md-6">
-                            <h3 class="heading heading-large light-1">
-                                Have an idea?<br>Let’s get it done right!
-                            </h3>
-                        </div>
-                        <div class="col-md-6 d-md-inline-flex justify-content-md-end">
-                            <div class="button-wrapper">
-                                <a class="button button-1" href="contact.html">
-                                    Let's Work Together
-                                </a>
+            @if(\Route::currentRouteName() == 'home')
+
+                    <!-- projects footer - start -->
+                    <div class="projects-footer projects-footer-1 bg-black">
+                        <div class="container">
+                            <div class="row align-items-lg-center">
+                                <div class="col-md-6">
+                                    <h3 class="heading heading-large light-1">
+                                        Have an idea?<br>Let’s get it done right!
+                                    </h3>
+                                </div>
+                                <div class="col-md-6 d-md-inline-flex justify-content-md-end">
+                                    <div class="button-wrapper">
+                                        <a class="button button-1" href="contact.html">
+                                            Let's Work Together
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- projects footer - end -->
+                    <!-- projects footer - end -->
+            @else
+                    <!-- projects footer - start -->
+                    <div class="load-more project-list-1">
+                        <a class="button">
+                            <span>Load More</span>
+                        </a>
+                    </div>
+                    <!-- projects footer - end -->
+
+            @endif
+
         </div>
     </div>
     <!-- projects - end -->

@@ -266,87 +266,17 @@
                 </div>
             </div>
             <!-- text content footer - end -->
-            <div class="artwork artwork-2">
-                <img src="assets/images/art_2.png" alt="artwork">
-            </div>
+           {{--  <div class="artwork artwork-2">
+                <img src="{{ asset('assets/images/art_1.svg') }}" width="582" height="669" alt="artwork-2">
+
+
+            </div> --}}
         </div>
     </div>
     <!-- text content section - end -->
 
     <!-- testimonial section - start -->
-    <div class="testimonial-section">
-        <div class="testimonial-section-wrapper bg-grey position-relative">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="testimonial-slider">
-                            <div class="swiper-container">
-                              <div class="swiper-wrapper">
-                                    <!-- testimonial slide - start -->
-                                    <div class="swiper-slide testimonial-slide">
-                                        <div class="testimonial-image">
-                                            <img src="assets/images/people_img_4.png" alt="people_img_4">
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <div>
-                                                <span>“</span>
-                                                Their work is quite fast and results are impeccable although they are a smaller agency but has it’s resources in one place with a talented young team.
-                                                <span>”</span>
-                                            </div>
-                                            <h3>Mark Brown</h3>
-                                            <h4>Director, Envato</h4>
-                                        </div>
-                                    </div>
-                                    <!-- testimonial slide - end -->
-                                    <!-- testimonial slide - start -->
-                                    <div class="swiper-slide testimonial-slide">
-                                        <div class="testimonial-image">
-                                            <img src="assets/images/testimonial-img-2.png" alt="people_img_2">
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <div>
-                                                <span>“</span>
-                                                Their work is quite fast and results are impeccable although they are a smaller agency but has it’s resources in one place with a talented young team.
-                                                <span>”</span>
-                                            </div>
-                                            <h3>Mark Stewart</h3>
-                                            <h4>Operations Manager, Envato</h4>
-                                        </div>
-                                    </div>
-                                    <!-- testimonial slide - end -->
-                                    <!-- testimonial slide - start -->
-                                    <div class="swiper-slide testimonial-slide">
-                                        <div class="testimonial-image">
-                                            <img src="assets/images/testimonial-img-3.png" alt="people_img_3">
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <div>
-                                                <span>“</span>
-                                                Their work is quite fast and results are impeccable although they are a smaller agency but has it’s resources in one place with a talented young team.
-                                                <span>”</span>
-                                            </div>
-                                            <h3>Michaelle Dawn</h3>
-                                            <h4>Art Director, Envato</h4>
-                                        </div>
-                                    </div>
-                                    <!-- testimonial slide - end -->
-                                </div>
-                            </div>
-                            <div class="slider--nav slider--nav-561011f">
-                                <div class="slider--nav-prev">
-                                    <i class="fas fa-arrow-left"></i>
-                                </div>
-                                <h6 class="slider--nav-numbers">00 / 00</h6>
-                                <div class="slider--nav-next">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('partials.testimonials')
     <!-- testimonial section - end -->
 
 
