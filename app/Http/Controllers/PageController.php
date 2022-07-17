@@ -112,6 +112,26 @@ class PageController extends Controller
 
         return view('pages.programmingTech');
     }
+    /** show the design photography page**/
+    public function designPhotography()
+    {
+
+        return view('pages.designPhotography');
+    }
+
+    /** show the video and animation page**/
+    public function videoAnimations()
+    {
+
+        return view('pages.videoAnimation');
+    }
+
+    /** show the event management page**/
+    public function eventManagemant()
+    {
+
+        return view('pages.eventManagemant');
+    }
 
     public function pages404()
     {

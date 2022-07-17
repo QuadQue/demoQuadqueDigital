@@ -56,7 +56,7 @@ Route::get('/content-marketing', [PageController::class, 'contentMarketing'])->n
 Route::get('/programming-tech', [PageController::class, 'programmingTech'])->name('programming.tech');
 Route::get('/design-photography', [PageController::class, 'designPhotography'])->name('design.photography');
 Route::get('/video-animations', [PageController::class, 'videoAnimations'])->name('video.animations');
-Route::get('/event-managemant', [PageController::class, 'eventManagemant'])->name('event-managemant');
+Route::get('/event-managemant', [PageController::class, 'eventManagemant'])->name('event.managemant');
 Route::get('/404', [PageController::class, 'pages404']);
 Route::get('/blog/show/{id}', [BlogController::class, 'show'])->name('blog.show');
 Route::post('/store/subscription', [SubscriptionController::class, 'store'])->name('store.subscription');

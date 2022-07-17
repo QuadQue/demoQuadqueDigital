@@ -44,6 +44,10 @@
         bottom: -14.5rem !important;
        
      }
+         .single-image img{
+         height:1000px;
+         }
+
 
       
        
