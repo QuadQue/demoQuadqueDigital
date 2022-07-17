@@ -20,7 +20,7 @@
             </div>
             <div class="navigation-menu">
                 <div class="navigation-menu-image">
-                    <img width="683" height="1037" src="assets/images/navigation_menu_image.png" alt="navigation image">
+                   <img width="683" height="1037" src="{{asset('assets/images/navigation_menu_image.png')}}" alt="navigation image">
                 </div>
                 <div class="navigation-menu-menu">
                     <div class="navigation-menu-menu--wrapper">
@@ -47,21 +47,22 @@
                                      <li class="menu-item">
                                          <a href="{{ url('/online-advertising') }}">Online Advertising</a>
                                      </li>
-                                     <li class="menu-item">
-                                         <a href="{{ url('/service-detailed') }}">Content Marketing</a>
-                                     </li>
-                                     <li class="menu-item">
-                                         <a href="{{ url('/service-detailed') }}">Programming & Tech</a>
-                                     </li>
-                                     <li class="menu-item">
-                                         <a href="{{ url('/service-detailed') }}">Design & Photography</a>
-                                     </li>
-                                     <li class="menu-item">
-                                         <a href="{{ url('/service-detailed') }}">Video & Animations</a>
-                                     </li>
-                                     <li class="menu-item">
-                                         <a href="{{ url('/service-detailed') }}">Event Management</a>
-                                     </li>
+                                    <li class="menu-item">
+                                        <a href="{{ url('/content-marketing') }}">Content Marketing</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="{{ url('/programming-tech') }}">Programming & Tech</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="{{ url('/design-photography') }}">Design & Photography</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="{{ url('/video-animations') }}">Video & Animations</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="{{ url('/event-managemant') }}">Event Management</a>
+                                    </li>
+
                                  </ul>
                              </li>
                            

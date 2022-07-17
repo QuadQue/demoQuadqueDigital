@@ -100,6 +100,19 @@ class PageController extends Controller
         return view('pages.onlineAdvertising');
     }
 
+    /** show the content marketing page**/
+    public function contentMarketing()
+    {
+
+        return view('pages.contentMarketing');
+    }
+    /** show the Programming Tech page**/
+    public function programmingTech()
+    {
+
+        return view('pages.programmingTech');
+    }
+
     public function pages404()
     {
         return view('pages.404');
