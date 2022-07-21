@@ -20,7 +20,7 @@
               </div>
         </div>
         <div class="artwork artwork-3">
-            <img src="assets/images/art_1.png" width="582" height="669" alt="artwork">
+            <img src="assets/images/art_1.png"  alt="artwork">
         </div>
     </div>
     <!-- page header - end -->

@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="artwork artwork-3">
-            <img src="{{asset('assets/images/art_1.svg')}}" width="582" height="669" alt="artwork">
+            <img src="{{asset('assets/images/art_1.svg')}}"  alt="artwork">
         </div>
     </div>
     <!-- page header - end -->

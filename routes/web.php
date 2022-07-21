@@ -7,6 +7,8 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\TagController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 
@@ -31,17 +33,16 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/', [PageController::class, 'index'])->name('homepage');
+Route::get('/', [PageController::class, 'index'])->name('home');
 
 Route::get('/login', [PageController::class, 'login'])->name('login');
 Route::post('/login/check', [AuthController::class, 'loginCheck'])->name('login.check');
 Route::post('/signup', [AuthController::class, 'signup'])->name('signup');
-Route::get('/about', [PageController::class, 'about']);
+Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/blog-detailed', [PageController::class, 'blogDetailed']);
 Route::get('/blog-list', [PageController::class, 'bloglist']);
 Route::get('/blog-detailed', [PageController::class, 'blogDetailed']);
-Route::get('/contact', [PageController::class, 'contact']);
-Route::get('/home', [PageController::class, 'home'])->name('home');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/project-detailed', [PageController::class, 'projectDetailed'])->name('project.detailed');
 Route::get('/career', [PageController::class, 'career'])->name('career');
 Route::get('/case-study', [PageController::class, 'caseStudy'])->name('case.study');
@@ -61,6 +62,11 @@ Route::get('/404', [PageController::class, 'pages404']);
 Route::get('/blog/show/{id}', [BlogController::class, 'show'])->name('blog.show');
 Route::post('/store/subscription', [SubscriptionController::class, 'store'])->name('store.subscription');
 Route::post('/store/contact/info', [ContactController::class, 'store'])->name('store.contact.info');
+
+//project details route
+Route::get('/atr', [ProjectController::class, 'atrDetails'])->name('atr.details');
+Route::get('uct', [ProjectController::class, 'uctDetails'])->name('uct.details');
+Route::get('itec', [ProjectController::class, 'itecDetails'])->name('itec.details');
 
 Route::middleware(['auth'])->name('admin.')->prefix('admin')->group(function () {
 

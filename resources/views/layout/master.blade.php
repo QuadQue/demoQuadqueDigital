@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     
      <style>
+         .logo{
+         margin-top:5px;
+         margin-left:5px;
+         }
+
         .logo img, .footer--logo img, .preloader img{
                 height: 50px !important;
                 width:200px !important;
@@ -44,13 +49,40 @@
         bottom: -14.5rem !important;
        
      }
-         .single-image img{
-         height:1000px;
-         }
+    .single-image img{
+    height:1000px;
+    }
 
+    .testimonial-slide .testimonial-content div {
+    color: #000;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 30px !important;
+
+    }
+
+    .client-slider .client-slide img {
+    opacity: 1;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    }
+    .button {
+        color:#fff;
+    }
+    .button:hover{
+        color:#fff;
+    }
+
+    .button-1:hover{
+        color:#000;
+    }
 
       
-       
+    .artwork img{
+
+         width:500px;
+         height:500px;
+    }
        
     </style>
     

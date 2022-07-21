@@ -37,7 +37,7 @@
         </div>
     </div>
     <div class="artwork artwork-3">
-        <img src="{{asset('assets/images/art_1.svg')}}" width="582" height="669" alt="artwork">
+        <img src="{{asset('assets/images/art_1.svg')}}" alt="artwork">
     </div>
 </div>
 <!-- page header - end -->
@@ -336,7 +336,7 @@
         </div>
         <!-- text content footer - end -->
         <div class="artwork artwork-2">
-            <img src="{{asset('assets/images/art_2.svg')}}" width="582" height="669" alt="artwork">
+            <img src="{{asset('assets/images/art_2.svg')}}"  alt="artwork">
         </div>
     </div>
     <div class="single-image ">
@@ -509,7 +509,7 @@
             </div>
         </div>
         <div class="artwork artwork-4">
-            <img src="{{asset('assets/images/art_1.svg')}}" alt="artwork" width="582" height="669" alt="artwork">
+            <img src="{{asset('assets/images/art_1.svg')}}"  alt="artwork">
         </div>
     </div>
 </div>

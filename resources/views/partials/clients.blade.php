@@ -39,75 +39,56 @@
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                          <img src="{{ asset('assets/images/clients_logo/achievement-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
+                                         <img src="{{ asset('assets/images/clients_logo/achievement-removebg-preview.png') }}" width="150" height="150" alt="people_img_3">
 
                                      </a>
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/alpha_college-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
-
+                                         <img src="{{ asset('assets/images/clients_logo/alpha_college-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
+                                     </a>
+                                 </div>
+                                 <div class="swiper-slide client-slide">
+                                     <a href="#" class="client-image">
+                                         <img src="{{ asset('assets/images/clients_logo/andRto-removebg-preview.png') }}" width="150" height="150" alt="people_img_3">
+                                     </a>
+                                 </div>
+                                 <div class="swiper-slide client-slide">
+                                     <a href="#" class="client-image">
+                                         <img src="{{ asset('assets/images/clients_logo/atr-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
 
 
                                      </a>
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                          <img src="{{ asset('assets/images/clients_logo/andRto-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
-
-
-
+                                         <img src="{{ asset('assets/images/clients_logo/bright_college-removebg-preview.png') }}" width="180" height="180" alt="people_img_3">
                                      </a>
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/atr-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
-
-
-                                     </a>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-             <!-- client slider - end -->
-
-             <!-- client slider - start -->
-             <div class="client-slider client-slider-1 overflow-hidden d-none d-lg-block">
-                 <div class="row">
-                     <div class="col-lg-12">
-                         <div class="swiper-container">
-                             <div class="swiper-wrapper">
-                                 <div class="swiper-slide client-slide">
-                                     <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/bright_college-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
+                                         <img src="{{ asset('assets/images/clients_logo/ibm-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
                                      </a>
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/ibm-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
-                                     </a>
-                                 </div>
-                                 <div class="swiper-slide client-slide">
-                                     <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/itec-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
+                                         <img src="{{ asset('assets/images/clients_logo/itec-removebg-preview.png') }}" width="150" height="150" alt="people_img_3">
 
                                      </a>
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/marriage-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
+                                         <img src="{{ asset('assets/images/clients_logo/marriage-removebg-preview.png') }}" width="150" height="100" alt="people_img_3">
                                      </a>
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/nta-removebg-preview.png') }}" alt="people_img_3">
+                                         <img src="{{ asset('assets/images/clients_logo/nta-removebg-preview.png') }}" alt="people_img_3">
                                      </a>
                                  </div>
                                  <div class="swiper-slide client-slide">
                                      <a href="#" class="client-image">
-                                        <img src="{{ asset('assets/images/clients_logo/officemate-removebg-preview.png') }}" width="200" height="200" alt="people_img_3">
+                                         <img src="{{ asset('assets/images/clients_logo/officemate-removebg-preview.png') }}" width="150" height="150" alt="people_img_3">
 
 
                                      </a>
@@ -122,3 +103,4 @@
      </div>
  </div>
  <!-- client section - end -->
+

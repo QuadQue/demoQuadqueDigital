@@ -36,7 +36,7 @@
               </div>
         </div>
         <div class="artwork artwork-3">
-            <img src="{{asset('assets/images/art_1.svg')}}" width="582" height="669" alt="artwork">
+            <img src="{{asset('assets/images/art_1.svg')}}"  alt="artwork">
         </div>
     </div>
     <!-- page header - end -->
@@ -170,8 +170,9 @@
                                                         <span class="wpcf7-form-control-wrap message-field"><textarea name="message_field" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Write your message *"></textarea></span>
                                                     </div>
                                                 </div>
-                                                <div class="submit-contact">
-                                                    <input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit"><span class="wpcf7-spinner"></span>
+                                                <div class="submit-contact" >
+                                                    <input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit"><span class="wpcf7-spinner"> </span>
+
                                                 </div>
                                             </div>
                                         </form>
